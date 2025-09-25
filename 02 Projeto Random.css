@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+img {
+    width: 25%;
+
+
+}
+
+h1 {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 300px;
+    align-items: center;
+    border-radius: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: rgba(255, 255, 255, 0.25);
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}
+
+.de {
+    margin-right: 65px;
+}
+
+.botao {
+    border-radius: 10px;
+    background: #AEC346;
+    box-shadow: 0 18px 40px 0 rgba(174, 195, 70, 0.35);
+    display: flex;
+    width: 342px;
+    height: 72px;
+    padding: 0 76px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    color: #FFF;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5px;
+    cursor: pointer;
+}
+
+.resultado {
+    margin-top: 30px;
+    padding: 20px;
+    width: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #FFF;
+    background: rgba(255, 255, 255, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(174, 195, 70, 0.35);
+    display: none; /* começa escondido */
+}
